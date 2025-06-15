@@ -1,0 +1,16 @@
+    $folder = "../Commen_file/Product_images/";
+    $filelocation = [];
+    for($i=1;$i<=4;$i++){
+      $templocation = $_FILES['product_image'.$i]['tmp_name'];
+      $filename = $_FILES['product_image'.$i]['name'];
+
+      if($filename){
+        $filelocation[] = $filename;
+        $path = $filelocation;
+        print_r($path);
+        // $move = move_uploaded_file($templocation,$path);
+      }
+      else{
+        $filelocation[] = $product_image_old[$i];
+      }
+    }
