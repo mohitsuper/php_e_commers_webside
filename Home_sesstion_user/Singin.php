@@ -71,7 +71,7 @@ include("../Commen_file/Connction.php");
 
     <p class="mt-4 text-center text-sm text-gray-600">
       Already have an account?
-      <a href="#" class="text-blue-600 hover:underline">Login here</a>
+      <a href="login.php" class="text-blue-600 hover:underline">Login here</a>
     </p>
   </div>
 
